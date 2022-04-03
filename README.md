@@ -8,6 +8,8 @@ This is a minimal repository to demonstrate the serialization/deserialization bu
 1. Press the "transfer" button (upper left).  This will serialize the upper workspace to JSON and deserialize it in the lower workspace.
 1. Try to drag the block in the lower workspace, and observe the error in the console.
 
+The code to serialize & deserialize is in the `transfer()` method of `src/App.vue`
+
 ## Project setup
 ```
 npm install
