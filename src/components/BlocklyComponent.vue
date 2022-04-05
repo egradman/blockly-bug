@@ -37,11 +37,11 @@ import Blockly from 'blockly';
 export default {
   name: 'BlocklyComponent',
   props: ['options'],
-  data(){
-    return {
-      workspace: null
-    }
-  },
+  //data(){
+  //  return {
+  //    workspace: null
+  //  }
+  //},
   mounted() {
     var options = this.$props.options || {};
     if (!options.toolbox) {
